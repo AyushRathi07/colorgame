@@ -1,0 +1,98 @@
+body{
+	padding:0;
+	margin:auto;
+	background-color: black;
+}
+
+h1,h3{
+	color:white;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	background-color :  #3366ff;
+}
+
+#newcolor{
+	margin-left: 25%;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	font-weight: bold;
+	text-transform:  uppercase;
+}
+
+#leveleasy{
+	margin-left: 20%;
+	height: 10px;
+	padding-bottom: 1px;
+	padding-left:2px;
+	padding-right: 2px;
+	margin-right:2.5%;
+}
+
+#levelhard{
+	/*margin-left: 2.5%;*/
+	height: 10px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	/*margin-right: 20%;*/
+}
+
+#display{
+	display:inline-block;
+	margin-left: 10%;
+	height: 10px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	width: 7%;
+}
+
+#newcolor:hover{
+	background-color: #3366ff;
+	color : white;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+#leveleasy:hover{
+	background-color: #3366ff;
+	color : white;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+#levelhard:hover{
+	background-color: #3366ff;
+	color : white;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+nav{
+	background-color: white;
+}
+
+table{
+	/*margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 2.5px;*/
+	margin: auto;
+}
+/*tr{
+	border: 2px solid red;
+}*/
+td{
+	/*border: 2px solid red;*/
+	width:150px;
+	height:130px;
+	background-color: red;
+	border-radius: 15px;
+	margin: auto;
+}
+
+.container{
+	background-color: black;
+
+}
